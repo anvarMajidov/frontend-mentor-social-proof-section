@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <link rel="stylesheet" href="style.css" />
+
     <link
       rel="icon"
       type="image/png"
@@ -16,16 +18,18 @@
   </head>
   <body>
     <main>
-      <img
-        src="./images/bg-pattern-top-desktop.svg"
-        alt="top background"
-        id="top__background__desk"
-      />
-      <img
-        src="./images/bg-pattern-bottom-desktop.svg"
-        id="bottom__background__desk"
-        alt="bottom background"
-      />
+      <div class="image__section__desktop">
+        <img
+          src="./images/bg-pattern-top-desktop.svg"
+          alt="top background"
+          id="top__background__desk"
+        />
+        <img
+          src="./images/bg-pattern-bottom-desktop.svg"
+          id="bottom__background__desk"
+          alt="bottom background"
+        />
+      </div>
       <div class="container">
         <div class="info__container">
           <div class="description">
@@ -37,9 +41,42 @@
             </p>
           </div>
           <div class="ratings__container">
-            <div class="rating">Rated 5 Stars in Reviews</div>
-            <div class="rating">Rated 5 Stars in Report Guru</div>
-            <div class="rating">Rated 5 Stars in BestTech</div>
+            <div class="rating__box">
+              <div class="rating">
+                <div class="stars">
+                  <img src="./images/icon-star.svg" alt="" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                </div>
+                <p>Rated 5 Stars in Reviews</p>
+              </div>
+            </div>
+            <div class="rating__box">
+              <div class="rating">
+                <div class="stars">
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                </div>
+                <p>Rated 5 Stars in Report Guru</p>
+              </div>
+            </div>
+            <div class="rating__box">
+              <div class="rating">
+                <div class="stars">
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                  <img src="./images/icon-star.svg" alt="star" />
+                </div>
+                <p>Rated 5 Stars in BestTech</p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="cards__container">
